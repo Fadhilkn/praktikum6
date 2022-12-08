@@ -1,0 +1,25 @@
+public class main {
+    public static void main(String[] args){
+        
+        //Asosiasi
+        Player playerA = new Player("100","faiky","level 1");
+        Senjata2 senjata = new Senjata2 ("7", "Desert Eangle", playerA.getnamePlayer());
+        
+        System.out.println("Name PLayer "+senjata .getdamage());
+        System.out.println("pegang senjata 2 "+senjata .getnamaSenjata());
+        
+        //Agregasi
+        Senjata Senjata2 = new Senjata("30","M4", playerA);
+        System.out.println("pegang Senjata 1 "+Senjata2.getnamaSenjata());
+        System.out.println("HP Player "+Senjata2.getdamage().getHP());
+        
+        //Komposisi
+        Armor Armor = new Armor ("100");
+        System.out.println("Armor player "+Armor.getHP());
+        
+        
+        
+        
+    }
+    
+}

@@ -1,0 +1,14 @@
+public class Armor {
+    private String HP;
+    
+    public Armor (String HP){
+       
+        this.HP = HP;
+    }
+    public void setHP(String HP){
+       this.HP= HP;
+    }
+    public String getHP(){
+        return HP;
+    }
+}
