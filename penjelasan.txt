@@ -1,0 +1,6 @@
+object clas player itu harus menggunakan senjata 1 karen di butuhkan dan kalau senjata 2 itu digunakan tapi jarang dipakai.
+dan player itu membutuhkan armor untuk bertahan dari peluru musuh.
+
+player ke senjata 1 itu Agregasi
+player ke senjata 2 itu asosiasi
+player ke armor itu komposisi
